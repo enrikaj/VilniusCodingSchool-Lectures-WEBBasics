@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
 
-  </head>
-<h2>Kontaktai</h2>
-<p>Charing Cross Road, London, WC2, United Kingdom<p/>
-  <p>Telefonas 0207 946 0946</p>
-  <p>Siųsti <a href="mailto:knygas@example.com">knygas@example.com</a></p> <br>
+<head>
+  <meta charset="utf-8">
+  <title></title>
 
-  <div id="map" style="width:400px;height:400px;background:yellow"></div>
+</head>
 
-  <script>
-  function myMap() {
-  var mapOptions = {
-      center: new google.maps.LatLng(51.5114918, -0.1289352),
-      zoom: 17,
-      mapTypeId: google.maps.MapTypeId.HYBRID
-  }
-  var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-  }
-  </script>
+<body>
+  <h2>Kontaktai</h2>
+  <p>Charing Cross Road, London, WC2, United Kingdom
+    <p/>
+    <p>Telefonas 0207 946 0946</p>
+    <p>Siųsti <a href="mailto:knygas@example.com">knygas@example.com</a></p> <br>
 
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOC-CWAiB_3xQpOw3mLPcU2TuaCw4ZqFY&callback=myMap"></script>
+    <div id="map" style="width:400px;height:400px;background:yellow"></div>
 
-  <p><a href="../index_8.html">Grįžti atgal</a></p>
+    <script>
+      function myMap() {
+        var mapOptions = {
+          center: new google.maps.LatLng(51.5114918, -0.1289352),
+          zoom: 17,
+          mapTypeId: google.maps.MapTypeId.HYBRID
+        }
+        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+      }
+    </script>
 
-<p></p>
-  <body>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOC-CWAiB_3xQpOw3mLPcU2TuaCw4ZqFY&callback=myMap"></script>
 
-  </body>
+    <p><a href="../index_8.html">Grįžti atgal</a></p>
+</body>
+
 </html>
