@@ -1,0 +1,19 @@
+!!!Kiekviena namø darbo uþduotis turi bûti atskirame kataloge!!!
+1. OK. Elementø atitraukimai nuo kraðto.
+2. Nepanaudotas nei vienas semantinis elementas :(
+3. OK. Su elementø atitraukimais nuo kraðto vis dar reikia padirbëti.
+4. Stiliaus nereikëjo naudoti apskritai ðitoje uþduotyje. naudojame figure ir figcaption antram paveiksliukui nuo virðaus ;)
+5. Be css uþduotis turi bûti. Mygtukams galima naudoti realius formos elementys button arba input su type button.
+6. OK. Atitraukimai nuo kraðto negerai vis dar. Be to forma, su elementais kuriø reikðmës tikëtina bus siunèiamos kaþkur apdoroti ar iðsaugoti yra talpinamos form elemente. <form...> <input..> ... ir t.t. </form>
+7.
+8.
+9.
+10.
+11.
+11.
+12.
+13.
+14.
+15.
+16.
+17.
