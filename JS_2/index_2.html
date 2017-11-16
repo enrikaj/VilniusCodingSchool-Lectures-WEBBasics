@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <script type="text/javascript">
+    var result = 0;
+    function displynum(num1) {
+      result = result + num1;
+      calcform.txt1.value = result;
+    }
+
+  </script>
+</head>
+
+<body>
+  <form name=calcform>
+    <input type=text name=txt1 style="text-align:right"><br>
+    <input type=button name=btn9 value=9 onclick="displynum(9)">
+    <input type=button name=btn8 value=8 onclick="displynum(8)">
+    <input type=button name=btn7 value=7 onclick="displynum(7)">
+    <input type=button name=addbtn value="+"><br>
+    <input type=button name=btn6 value=6 onclick="displynum(6)">
+    <input type=button name=btn5 value=5 onclick="displynum(5)">
+    <input type=button name=btn4 value=4 onclick="displynum(4)">
+    <input type="button" name="subbtn" value="-"><br>
+    <input type="button" name="btn3" value="3" onclick="displynum(3)">
+    <input type=button name=btn2 value=2 onclick="displynum(2)">
+    <input type=button name=btn1 value=1 onclick="displynum(1)">
+    <input type=button name=btnmul value=*><br>
+    <input type=button name=btn0 value=0 onclick="displynum(0)">
+    <input type=button name=eqlbtn value==>
+    <input type=button name=divbtn value=/>
+
+  </form>
+
+</body>
+
+
+</html>
