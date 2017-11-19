@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+  </script>
+  <style>
+    .block {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      background-color: white;
+      display: block;
+      left: 478px;
+      top: 657px;
+    }
+  </style>
+
+  <script>
+    function showAlert() {
+      alert("I am an alert box!");
+    }
+
+    function checkScreenSize() {
+      var screenHeight = $(window).height();
+      var screenWidth = $(window).width();
+      console.log("checking" + screenHeight + "/" + screenWidth);
+      if (screenWidth < 478) {
+        alert("Lobis šioje žemėje neegzistuoja!")
+      }
+    }
+  </script>
+
+</head>
+
+<body onload="checkScreenSize()">
+  <div class="block" onmouseover="showAlert()">
+  </div>
+
+
+</body>
+
+</html>
