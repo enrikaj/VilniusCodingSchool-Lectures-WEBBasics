@@ -4,31 +4,21 @@
 <head>
   <meta charset="utf-8">
   <title></title>
-  <style>
-    .block {
-      position: absolute;
-      width: 30px;
-      height: 30px;
-      background-color: white;
-      display: block;
-      left: 478px;
-      top: 657px;
-
-    }
-  </style>
-
   <script>
-    function showAlert() {
-      alert("Lobį radote!");
+    var cursorX;
+    var cursorY;
+    document.onmousemove = function(e) {
+      cursorX = e.pageX;
+      cursorY = e.pageY;
+      console.log(cursorX + "/" + cursorY);
+      if (cursorX > 478 && cursorX < 508 && cursorY > 607 && cursorY < 687) {
+        alert("Lobį radote!");
+      }
     }
   </script>
-
 </head>
 
 <body>
-  <div class="block" onmouseover="showAlert()">
-
-  </div>
 </body>
 
 </html>
