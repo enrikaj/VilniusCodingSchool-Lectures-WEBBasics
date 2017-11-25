@@ -18,5 +18,7 @@
 16.
 17.
 JS1. OK.
-JS2. Neveikia = mygtukas
+JS2. OK, bet speju pagal pavyzdá ið èia https://codepen.io/Hamolyva9/pen/PpREQj
+JS3. Ne tokia logika. Turi nebûti elementø. Zona kurioje yra lobis - hipotetinë.
+JS4. Ne tokia logika. Turi nebûti elementø. Zona kurioje yra lobis - hipotetinë.
 Registracijos forma. OK.
