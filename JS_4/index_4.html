@@ -6,28 +6,29 @@
   <title></title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
   </script>
-  <style>
-    .block {
-      position: absolute;
-      width: 30px;
-      height: 30px;
-      background-color: white;
-      display: block;
-      left: 478px;
-      top: 657px;
-    }
-  </style>
-
   <script>
-    function showAlert() {
-      alert("I am an alert box!");
+    //-------js3-----
+    var cursorX;
+    var cursorY;
+    document.onmousemove = function(e) {
+      cursorX = e.pageX;
+      cursorY = e.pageY;
+      console.log(cursorX + "/" + cursorY);
+      if (cursorX > 478 && cursorX < 508 && cursorY > 607 && cursorY < 687) {
+        alert("Lobį radote!");
+      }
+
+      //-----js4-------
     }
+    $(document).ready(function() {
+      checkScreenSize();
+    });
 
     function checkScreenSize() {
       var screenHeight = $(window).height();
       var screenWidth = $(window).width();
       console.log("checking" + screenHeight + "/" + screenWidth);
-      if (screenWidth < 478) {
+      if (screenWidth > 478 || screenHeight > 607) {
         alert("Lobis šioje žemėje neegzistuoja!")
       }
     }
@@ -35,11 +36,7 @@
 
 </head>
 
-<body onload="checkScreenSize()">
-  <div class="block" onmouseover="showAlert()">
-  </div>
-
-
+<body>
 </body>
 
 </html>
