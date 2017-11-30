@@ -8,17 +8,17 @@
 7. OK. Patekimas á failus kataloguose ir atgal yra. Taèiau dar galima buvo pridëti ir failus nuorodoms "Diriþablis", "Sklandytuvas", "Oro balionas" ir t.t.
 8. Google maps galima ir paprasèiau ádëti. Tiesiog surandamas adresas, tada spaudþiame share, yra mygtukas embed map ir ten sugeneruoja kodà HTML.
 9. OK.
-10.
-11.
-11.
-12.
-13.
-14.
-15.
+10. OK.
+11. Jeigu pameni span naudojamas kiekveinai dienai atskirai
+11. OK.
+12. OK.
+13. OK.
+14. Kur rëmelis?
+15. 
 16.
 17.
 JS1. OK.
 JS2. OK, bet speju pagal pavyzdá ið èia https://codepen.io/Hamolyva9/pen/PpREQj
-JS3. Ne tokia logika. Turi nebûti elementø. Zona kurioje yra lobis - hipotetinë.
-JS4. Ne tokia logika. Turi nebûti elementø. Zona kurioje yra lobis - hipotetinë.
+JS3. OK.
+JS4. Neiðtestavai. Kai lobis egzistuoja, meta, kad neegzistuoja.
 Registracijos forma. OK.
